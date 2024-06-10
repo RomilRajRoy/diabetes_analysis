@@ -32,24 +32,34 @@ Predictive Analysis: To develop predictive models using health metrics to accura
 Model Comparison: To compare the performance of different machine learning algorithms in predicting diabetes.
 Feature Importance: To identify the most significant health metrics contributing to diabetes prediction.
 Methodology
+
 Data Preparation
 
 Data Cleaning: Missing values were imputed with the mean value. Outliers were detected and handled using the IQR method.
+
 Standardization: Standardized the features to have a mean of 0 and standard deviation of 1.
+
 Dimensionality Reduction: Applied Principal Component Analysis (PCA) for visualization purposes.
+
 Models Used
+
 Apriori Algorithm: Uncovered associations between health metrics and diabetes.
 Support Vector Machine (SVM): Achieved the highest accuracy (97.83%) and AUC (1.00).
 Random Forest: Provided robust performance with an accuracy of 96.15% and AUC of 0.99.
 Gradient Boosting: Similar to Random Forest with high accuracy and AUC.
 Logistic Regression: Provided reasonable accuracy (77.86%) and interpretability.
 Results
+
 Model Performance
 
 Apriori Algorithm: Revealed significant associations between health metrics and diabetes.
+
 SVM: Outperformed all others with an accuracy of 97.83% and AUC of 1.00.
+
 Random Forest: High accuracy (96.15%) and AUC (0.99).
+
 Gradient Boosting: High accuracy (96.15%) and AUC (0.99).
+
 Logistic Regression: Reasonable accuracy (77.86%) with good interpretability.
 Key Findings
 
