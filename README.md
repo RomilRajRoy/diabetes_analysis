@@ -15,11 +15,13 @@ Diabetes Pedigree Function: A function that scores the likelihood of diabetes ba
 Age: Age of the patient.
 Outcome: Binary outcome indicating diabetes status (1 if diabetic, 0 if not).
 Objectives
+
 Predictive Analysis: To develop predictive models using health metrics to accurately diagnose diabetes.
 Model Comparison: To compare the performance of different machine learning algorithms in predicting diabetes.
 Feature Importance: To identify the most significant health metrics contributing to diabetes prediction.
 Methodology
 Data Preparation
+
 Data Cleaning: Missing values were imputed with the mean value. Outliers were detected and handled using the IQR method.
 Standardization: Standardized the features to have a mean of 0 and standard deviation of 1.
 Dimensionality Reduction: Applied Principal Component Analysis (PCA) for visualization purposes.
@@ -31,23 +33,26 @@ Gradient Boosting: Similar to Random Forest with high accuracy and AUC.
 Logistic Regression: Provided reasonable accuracy (77.86%) and interpretability.
 Results
 Model Performance
+
 Apriori Algorithm: Revealed significant associations between health metrics and diabetes.
 SVM: Outperformed all others with an accuracy of 97.83% and AUC of 1.00.
 Random Forest: High accuracy (96.15%) and AUC (0.99).
 Gradient Boosting: High accuracy (96.15%) and AUC (0.99).
 Logistic Regression: Reasonable accuracy (77.86%) with good interpretability.
 Key Findings
+
 Health metrics such as glucose levels, BMI, and age are significant predictors of diabetes.
 Ensemble methods (Random Forest, Gradient Boosting) and SVM showed superior performance.
 The Apriori algorithm provided valuable exploratory insights into health metric associations.
 Conclusion
+
 This project demonstrated the significant predictive power of health metrics for diabetes. Ensemble methods and SVM provided the best performance, while the Apriori algorithm revealed meaningful associations. Future work should focus on enhancing data quality, model optimization, and real-world application to improve diabetes prediction and management.
 
 Files
 final_mldm_cw_doc.docx: Detailed documentation of the coursework and analysis.
 Healthcare-Diabetes.ipynb: Jupyter notebook containing the code and results of the analysis.
 Author
-Romil Raj Roy - rr01062@Surrey.Ac.uk
+Romil Raj Roy - rajromil5@gmail.com
 
 License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
