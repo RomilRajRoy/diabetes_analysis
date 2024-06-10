@@ -76,8 +76,6 @@ Healthcare-Diabetes.ipynb: Jupyter notebook containing the code and results of t
 Author
 Romil Raj Roy - rajromil5@gmail.com
 
-License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
 
 Acknowledgments
 Thanks to the UCI Machine Learning Repository for providing the Pima Indians Diabetes Database.
