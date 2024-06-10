@@ -1,19 +1,31 @@
 Diabetes Prediction Project
+
 Overview
+
 This project explores the predictive power of various health metrics in diagnosing diabetes using the Pima Indians Diabetes Database. The study applied several machine learning and data mining algorithms, including the Apriori algorithm for association rule learning, Random Forest, Gradient Boosting, Logistic Regression, and Support Vector Machine (SVM) for classification tasks.
 
 Dataset
+
 The dataset used in this project is the Pima Indians Diabetes Database, which is publicly available from the UCI Machine Learning Repository. It contains various health metrics for female patients of Pima Indian heritage aged 21 and older. Key features include:
 
 Pregnancies: Number of times pregnant.
+
 Glucose: Plasma glucose concentration.
+
 Blood Pressure: Diastolic blood pressure (mm Hg).
+
 Skin Thickness: Triceps skin fold thickness (mm).
+
 Insulin: 2-hour serum insulin (mu U/ml).
+
 BMI: Body mass index (weight in kg/(height in m)^2).
+
 Diabetes Pedigree Function: A function that scores the likelihood of diabetes based on family history.
+
 Age: Age of the patient.
+
 Outcome: Binary outcome indicating diabetes status (1 if diabetic, 0 if not).
+
 Objectives
 
 Predictive Analysis: To develop predictive models using health metrics to accurately diagnose diabetes.
